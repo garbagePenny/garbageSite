@@ -19,7 +19,33 @@
     justify-content: space-between;
     background: #fff;
 }
-
+.team{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: row;
+    align-items: center;
+}
+.team-member{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team-member img{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 1px;
+    width: 200px;
+}
+.team-member img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
 .logo{
     width: 180px;
     cursor: pointer;
